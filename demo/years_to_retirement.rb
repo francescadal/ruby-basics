@@ -1,7 +1,7 @@
 retire_age = 65
 
-puts "What's your age? "
-
+print "What's your age? "
+#
 current_age = gets.chomp!.to_i
 years_to_go = retire_age - current_age
 

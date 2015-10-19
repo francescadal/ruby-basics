@@ -4,10 +4,11 @@ current_address = "35 Sixth Ave"
 puts 'current_address is ' + current_address
 
 # WARNING: Don't confuse the Assignment Operator, =, with the Equality Operator, ==
+#no '==='
 
 # Reassign the variable
 current_address = "503 Main St."
-puts 'current_address is ' + current_address
+puts '\ncurrent_address is ' + current_address
 
 # REMEMBER: That the variable is ONLY pointing to an object.
 
@@ -19,7 +20,7 @@ puts 'current_address is pointing ot the object with an id of ' + current_addres
 
 # Create another variable and set it's value
 work_address = "52 Melcher St"
-puts 'work_address is ' + work_address
+puts '\nwork_address is ' + work_address
 
 # Assignment of one variable using another variable.
 work_address = current_address

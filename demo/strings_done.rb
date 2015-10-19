@@ -12,9 +12,9 @@ puts "\tsimple string"   # Tab special char
 puts "simple\s\s\s\sstring"  # Space special char
 
 # Find specific characters by 'index' or 'offset' using 'braces'
-puts  "simple string"[0]
-puts  "simple string"[3]
-puts  "simple string"[1..4]
+puts "simple string"[0]
+puts "simple string"[3]
+puts "simple string"[1..4]
 puts "simple string"[-1]
 puts "simple string"[-2]
 puts "simple string"[5..-1]
@@ -37,3 +37,8 @@ puts "simple string".include?('ple')
 puts "simple string".include?('xyz')
 
 # Find the Ruby String documentation. Google it.
+# how are the methonds NOT LIKE  Javascript?
+#- no semicolons at the end of statement
+#- parens are optional
+#- can't call a method on a js primitive
+#-
